@@ -25,7 +25,7 @@
 
 ### Instalação Kubectl & Minikube
 
-- **kubectl**
+**kubectl**
 
 - Open download folder
 
@@ -43,7 +43,7 @@
 
     ```$ kubectl version --client --output=yaml``` 
 
-- **minikube**  (Local Kubernetes cluster)
+**minikube (Local Kubernetes cluster)** 
 
 - Open download folder 
     ```$ cd Download```
@@ -67,7 +67,25 @@
     ```$ minikube delete```
     ```$ minikube start```
 
- **Comando**
+ **Comandos / Terminal**
 
-  -  ```minikube stop```
- 
+- ```minikube start```
+- ```minikube stop```
+- ```minikube status```
+
+### Orquestrador de Containers (Gerenciamento)
+
+- Implantação
+- Provisionameto
+- Networking
+- Dimensionamento
+- Disponibilidade
+
+**Orquestradores Populares**
+
+- Docker Swarm
+- Red Hat OpenShift
+- Apache Mesos
+- Kubernetes
+
+
