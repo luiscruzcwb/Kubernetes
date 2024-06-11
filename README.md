@@ -1,5 +1,4 @@
 # Kubernetes
-This repository contains Kubernetes annotations.
 
 ### História do Kubernetes
    <img src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png" width="200" height="150">
