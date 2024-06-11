@@ -48,11 +48,34 @@
     
 - **Cluster Kubernetes**
 
+Um cluster Kubernetes consiste em um conjunto de servidores de processamento, chamados nós, que executam aplicações containerizadas. Todo cluster possui ao menos um servidor de processamento (worker node).
+
+O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes de uma aplicação. A camada de gerenciamento gerencia os nós de processamento e os Pods no cluster. Em ambientes de produção, a camada de gerenciamento geralmente executa em múltiplos computadores e um cluster geralmente executa múltiplos nós, fornecendo tolerância a falhas e alta disponibilidade.
+
     - Master
     - Node
+        - Pod
 
 ![Exemplo K8S Cluster](https://miro.medium.com/v2/resize:fit:700/1*WHXv2Z0bBfC7GW4egoIwTw.png)
 
+![Componentes K8S Cluster](https://kubernetes.io/images/docs/components-of-kubernetes.svg)
+
+
+### Componentes da camada de gerenciamento
+
+ - kube-apiserver
+ - etcd (banco de dados - chave x valor)
+ - kube-scheduler
+ - kube-controller-manager
+ - cloud-controller-manager (Opcional)
+ 
+ ### Componentes do nó
+
+  - kubelet 
+  - kube-proxy (Comunicação de rede)
+  - Agente de execução de contêiner (runtime)
+
+[Documentacão Oficial](https://kubernetes.io/pt-br/docs/concepts/overview/components/)  
 
 ### Minikube
 
@@ -120,9 +143,11 @@
 
 **Orquestradores Populares**
 
+- Kubernetes
 - Docker Swarm
 - Red Hat OpenShift
 - Apache Mesos
-- Kubernetes
+- AWS ECS
+- GCP GKE
 
 
