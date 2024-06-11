@@ -16,6 +16,43 @@
     - Project Seven of Nine: Homenagem a personagem da série Star Trek: Voyager;
     - Borg: Organismos ciberneticos de Star Trek;
 
+- **O que é Kubernetes?**
+    - Open-Source System;
+    - Container Orchestration System;
+    - Automação de Processos: Deplyment, Scaling e Gerenciamento; 
+    - DevOps (Importante Ferramenta);
+    - K8S - Acronimo
+
+- **Caracteristicas Kubernetes**
+    - Imutabilidade;
+    - Substituição;
+    - Segurança contra indisponibilidade;
+    - Configuraçõa Declaração;
+    - Self-Healing System;
+    - Autoscale Up / Down
+    - Automação (DevOps Tool);
+    - Fault Protection;
+    - YAML / JSON Manifest files;
+    - Escala Declarativa;
+    - Cluster Scale Support;
+    - Service-based decoupling for teams;
+    - Separation of Responsibilities concept;
+
+- **Infraestrutura Kubernetes**
+    - Cloud Abstraction;
+    - Bare Metal (Servidores Fisicos);
+    - Virtual Machines;
+    - Kind [Tool](https://kind.sigs.k8s.io/)
+    - Raspberry Pi;
+    - AKS,GKE,AZURE; e etc ...; 
+    
+- **Cluster Kubernetes**
+
+    - Master
+    - Node
+
+![Exemplo K8S Cluster](https://miro.medium.com/v2/resize:fit:700/1*WHXv2Z0bBfC7GW4egoIwTw.png)
+
 
 ### Minikube
 
