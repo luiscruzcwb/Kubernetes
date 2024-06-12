@@ -132,6 +132,15 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
 - ```minikube start```
 - ```minikube stop```
 - ```minikube status```
+- ```kubectl get pods -o wide```
+- ```kubectl get pods --all-namespaces```
+- ```kubectl delete pods "nome do pod"```
+- ```kubectl delete --all pods```
+
+
+## Forma Imperativa
+
+- 
 
 ### Orquestrador de Containers (Gerenciamento)
 
