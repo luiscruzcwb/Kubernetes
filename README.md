@@ -155,14 +155,22 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
 
  **Kubectl / Cli**
 
+- ```kubectl get all```
 - ```kubectl get pods -o wide```
 - ```kubectl get replicasets```
-- ```kubect create -f nome-do_arquivo-replicaset.yaml```
+- ```kubectl apply -f nome-do_arquivo.yaml```
+- ```kubect create -f nome-do_arquivo.yaml```
 - ```kubectl get pods --all-namespaces```
 - ```kubectl delete pods "nome-do-pod"```
 - ```kubectl delete pods "nome-do-arquivo.yml"```
 - ```kubectl delete --all pods```
 - ```watch kubectl get pods```
+- ```kubectl rollout status```
+- ```kubectl rollout history```
+- ```kubectl rollout undo```
+- ```kubectl rollout pause```
+- ```kubectl rollout resume```
+- ```kubectl describe```
 
 
 ## Forma Imperativa
