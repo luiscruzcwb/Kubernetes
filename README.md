@@ -171,6 +171,7 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
 - ```kubectl rollout pause```
 - ```kubectl rollout resume```
 - ```kubectl describe```
+- ```kubectl scale```
 
 
 ## Forma Imperativa

@@ -18,5 +18,7 @@ spec:
 
   selector:
     matchLabels:
-      env: production 
+      env: production
+  strategy:
+    type: Recreate
   replicas: 4
