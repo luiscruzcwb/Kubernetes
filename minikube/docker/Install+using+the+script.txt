@@ -1,0 +1,21 @@
+﻿Install Docker using script
+
+
+1. Open download folder
+$ cd Downloads
+
+2. Docker script download
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+
+3. Docker script running
+$ sudo sh get-docker.sh
+
+4. Restar system
+$ sudo reboot
+
+5. Start service
+$ sudo service docker start
+
+6. Test Docker
+$ sudo docker run hello-world
+
