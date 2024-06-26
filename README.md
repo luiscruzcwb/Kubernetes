@@ -78,6 +78,7 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
  ### Documentacao Kubernetes
 
 [Documentacão Oficial](https://kubernetes.io/pt-br/docs/concepts/overview/components/)  
+[Kubernetes Deployments - The Ultimate Guide](https://semaphoreci.com/blog/kubernetes-deployment)
 
 ### Orquestrador de Containers (Gerenciamento)
 
