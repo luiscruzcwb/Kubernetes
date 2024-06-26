@@ -75,7 +75,26 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
   - kube-proxy (Comunicação de rede)
   - Agente de execução de contêiner (runtime)
 
+ ### Documentacao Kubernetes
+
 [Documentacão Oficial](https://kubernetes.io/pt-br/docs/concepts/overview/components/)  
+
+### Orquestrador de Containers (Gerenciamento)
+
+- Implantação
+- Provisionameto
+- Networking
+- Dimensionamento
+- Disponibilidade
+
+**Orquestradores Populares**
+
+- Kubernetes
+- Docker Swarm
+- Red Hat OpenShift
+- Apache Mesos
+- AWS ECS
+- GCP GKE
 
 ### Minikube
 
@@ -127,36 +146,40 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
     ```$ minikube delete```
     ```$ minikube start```
 
- **Comandos / Terminal**
+ **Minikube / Cli**
 
 - ```minikube start```
 - ```minikube stop```
 - ```minikube status```
+
+ **Kubectl / Cli**
+
 - ```kubectl get pods -o wide```
+- ```kubectl get replicasets```
+- ```kubect create -f nome-do_arquivo-replicaset.yaml```
 - ```kubectl get pods --all-namespaces```
-- ```kubectl delete pods "nome do pod"```
+- ```kubectl delete pods "nome-do-pod"```
+- ```kubectl delete pods "nome-do-arquivo.yml"```
 - ```kubectl delete --all pods```
+- ```watch kubectl get pods```
 
 
 ## Forma Imperativa
 
 - 
 
-### Orquestrador de Containers (Gerenciamento)
+## Deployments
+- Faz a implantacao da aplicacao
+- Rolling Updates (Rolling Release)
+- Recreate Deployment (Risco alto de indisponibilidade)
+- Rollback
+- **Blue / green deployment**
+    ![Exemplo K8S Cluster](https://semaphoreci.com/wp-content/uploads/2019/07/Blue-green-deployment@2x.png)
+- **Canary deployment**
+    ![Exemplo K8S Cluster](https://semaphoreci.com/wp-content/uploads/2019/07/Canary-deployment@2x.png)
 
-- Implantação
-- Provisionameto
-- Networking
-- Dimensionamento
-- Disponibilidade
 
-**Orquestradores Populares**
 
-- Kubernetes
-- Docker Swarm
-- Red Hat OpenShift
-- Apache Mesos
-- AWS ECS
-- GCP GKE
+
 
 
