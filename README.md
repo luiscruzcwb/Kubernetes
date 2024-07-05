@@ -58,7 +58,7 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
 
 ![Exemplo K8S Cluster](https://miro.medium.com/v2/resize:fit:700/1*WHXv2Z0bBfC7GW4egoIwTw.png)
 
-![Componentes K8S Cluster](https://kubernetes.io/images/docs/components-of-kubernetes.svg)
+![Componentes K8S Cluster](/Imagens/kubernetes_cluster.png)
 
 
 ### Componentes da camada de gerenciamento
