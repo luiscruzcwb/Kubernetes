@@ -99,8 +99,18 @@ O(s) servidor(es) de processamento hospeda(m) os Pods (), que são componentes d
 
 ### Minikube
 
+<img src="https://d36ai2hkxl16us.cloudfront.net/thoughtindustries/image/upload/a_exif,c_fill,w_400/v1/course-uploads/e0df7fbf-a057-42af-8a1f-590912be5460/a3rnd9yba8gq-Minikube_logo.png" width="200" height="200">
+
 - Criado para aprendizado;
 - Local Kubernetes Cluster;
+
+
+O Minikube é um dos métodos mais fáceis, flexíveis e populares para executar um cluster Kubernetes local tudo-em-um ou multi-nó, isolado por Máquinas Virtuais (VM) ou Contêineres, executado diretamente em nossas estações de trabalho. O Minikube é a ferramenta responsável pela instalação de componentes do Kubernetes, inicialização do cluster e desmontagem do cluster quando não for mais necessário. Ele inclui recursos adicionais destinados a facilitar a interação do usuário com o cluster Kubernetes, mas, mesmo assim, ele inicializa para nós um cluster Kubernetes totalmente funcional, não produtivo, extremamente conveniente para fins de aprendizado. O Minikube pode ser instalado em macOS, Windows e muitas distribuições Linux.
+
+ ### Documentacao KubMinikube
+
+[Documentacão Github](https://github.com/kubernetes/minikube)  
+[Documentação Oficial](https://minikube.sigs.k8s.io/docs/)
 
 
 ### Instalação Kubectl & Minikube
